@@ -32,6 +32,7 @@ function viewCart() {
         msg += `and ${getCart()[i].itemName} at $$(){getCart[i].itemPrice}.`
       }
     }
+    return msg
   }
 }
 
