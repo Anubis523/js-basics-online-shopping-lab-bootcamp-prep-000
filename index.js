@@ -32,7 +32,7 @@ function viewCart() {
         msg += `${getCart()[i].itemName} at $${getCart()[i].itemPrice}, `
       }
       else {
-        msg += `and ${getCart()[i].itemName} at $$(){getCart[i].itemPrice}.`
+        msg += `and ${getCart()[i].itemName} at $${getCart()[i].itemPrice}.`
       }
     }
     return msg
